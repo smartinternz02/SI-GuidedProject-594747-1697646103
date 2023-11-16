@@ -1,0 +1,54 @@
+.original{
+    font-size: 20px;
+    padding:3px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+}
+.summary{
+    font-size: 20px;
+    padding:3px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+}
+
+.srt{
+    display:flex;
+    flex-direction: row;
+}
+.originalTxt{
+    padding:10px;
+    margin:auto;
+}
+.summaryTxt{
+    padding:10px;
+    /* margin:auto; */
+}
+.heading{
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+}
+.submitBtn{
+    margin-top:10px;
+}
+
+div.container.srt{
+    display:flex
+}
+
+
+body {
+    background-image: url('/sum_bac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn{
+        border-radius:8px ;
+        padding:9px 10px;
+        font-size: 0.9rem;
+        margin: 7px 12px;
+        border:2px solid black;
+  }

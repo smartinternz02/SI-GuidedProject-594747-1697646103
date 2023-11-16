@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+      body{
+         background-image: url('/static/sum_bac.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4 heading" style="color: white">Text Summarizer</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" style="display:flex; justify-content:space-around ; color:white">
+    <p class="original"  style="border:2px solid white; padding: 8px;
+    margin: 12px;">Original Text</p>
+    <p class="summary"  style="border:2px solid white; padding: 8px;
+    margin: 12px;">Summary</p>
+  </div>
+
+  <div class="container srt"   style="display:flex">
+    <p class="originalTxt col-sm-6" style="border: 2px solid black;
+    background: white;margin: 10px;">{{original}}</p>
+    <p class="summaryTxt col-sm-6" style="border: 2px solid black;
+    background: white;margin: 10px;">{{summary}}</p>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
